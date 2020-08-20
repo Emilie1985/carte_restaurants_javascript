@@ -1,0 +1,57 @@
+h1, h2{
+	text-align: center;
+	font-family: "Segoe print";	
+}
+#map{
+	width: 50%;
+	height: 80%;
+	position: absolute;
+}
+#texte{
+	float: right;
+	width: 40%;
+	height: 100%;
+	border : 2px solid blue;
+	border-radius: 10px;
+	background-color: #FFEBE6;
+	padding-left: 20px;
+	margin-bottom: 30px;
+	font-family: "MV Boli";
+}
+#info_title{
+	text-align : center;
+}
+p{
+	text-align: center;
+}
+#picture{
+	width: 20%;
+	height: 40%;
+	position: absolute;
+	z-index: 1;
+}
+.bouton_ajouter{
+	float : right;
+	background-color: lightblue;
+	margin-right: 70px;
+}
+li{
+	margin-top: 20px;
+}
+#bouton_resto{
+	margin-top: 70px;
+}
+	.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+	.ui-dialog{
+		background-color: #b4e3c5;
+		border : 2px solid #0b5c4b;
+		border-radius: 10px;
+		text-align: center;
+		top : 40px;
+	}
+	.ui-dialog-titlebar{
+		text-align: center;
+		font-weight: bold;
+	}

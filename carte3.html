@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carte d'avis de restaurants</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="carte3.css" />
+  </head>
+
+  <body>
+    <main id="principal">
+      <h1>Avis de restaurants</h1>
+      <div id="picture"></div>
+      <div id="map"></div>
+      <div id="texte">
+        <h2>Liste des restaurants dans cette zone</h2>
+        <p>
+          Afficher uniquement les restautants ayant entre
+          <select id="selectInf">
+            <option value="0" selected>0 étoile</option>
+            <option value="1">1 étoile</option>
+            <option value="2">2 étoiles</option>
+            <option value="3">3 étoiles</option>
+            <option value="4">4 étoiles</option>
+            <option value="5">5 étoiles</option>
+          </select>
+          et
+          <select id="selectSup">
+            <option value="1">1 étoile</option>
+            <option value="2">2 étoiles</option>
+            <option value="3">3 étoiles</option>
+            <option value="4">4 étoiles</option>
+            <option value="5" selected>5 étoiles</option>
+          </select>
+        </p>
+        <ul id="liste"></ul>
+        <div id="bouton_resto"></div>
+      </div>
+    </main>
+    <div id="newDiv"></div>
+
+    <script></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+      integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=places"
+      async
+      defer
+    ></script>
+    <script type="text/javascript" src="carte3.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <script type="text/javascript" src="restaurant.js"></script>
+  </body>
+</html>
